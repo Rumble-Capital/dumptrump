@@ -79,7 +79,7 @@ footer {
 }
 
 #download {
-  background:#5a0b0b !important;
+  background:#0f5eb1 !important;
   color:white;
   font-family:"permanent marker";
 }
@@ -100,4 +100,36 @@ section p {
 
 p.text-muted {
   color:white !important;
+}
+
+.btn-push {
+  display:block;
+  width: 100%;
+  color: white;
+  height: 60px;
+  font-family: 'Gloria Hallelujah',cursive;
+  background-color: #302013;
+  text-align: left;
+  font-size: 20px;
+  height: 80px;
+  padding-left: 40px;
+  cursor:pointer;
+
+}
+
+.button-press {
+  border-radius: 15px;
+}
+
+.button-toggle:hover {background-color: #000}
+
+.button-toggle:active {
+background-color: #000;
+box-shadow: 0 5px #666;
+transform: translateY(9px);
+}
+}
+
+#toggle {
+  padding:0px;
 }
