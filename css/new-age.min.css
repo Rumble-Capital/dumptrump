@@ -136,5 +136,10 @@ transform: translateY(9px);
 
 iframe {
   width: 80%;
-    height: 800px;
+  height: 800px;
+}
+
+.terms {
+  width: 80%;
+  height: 800px;
 }
