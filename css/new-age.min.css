@@ -148,3 +148,20 @@ iframe .terms {
   width: 80%;
   height: 800px;
 }
+
+.normal {
+  margin-bottom: 15px;
+  font-weight: 100;
+}
+
+.caps {
+  text-transform: uppercase;
+  font-weight:bold;
+  margin-bottom:10px;
+}
+
+.term-title {
+  text-decoration:underline;
+  margin-bottom:40px;
+  margin-top:40px;
+}
