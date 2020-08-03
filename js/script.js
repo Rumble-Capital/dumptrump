@@ -1,3 +1,11 @@
+
+
+
+
+$(window).on('beforeunload', function() {
+    $(window).scrollTop(0);
+});
+
 $(document).ready(function() {
 		$('#rumble-credit').hide(0).fadeIn(500);
 		$('.borboletas').hide(0).fadeIn(500);
@@ -8,6 +16,7 @@ $(document).ready(function() {
 			$('.borboletas').fadeOut(1500);
 		}, 1500);
 
+	
 
 		setTimeout(function(){
 			$('body').removeClass("noscroll");
@@ -21,13 +30,10 @@ $(document).ready(function() {
 			s.src = "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5eeed4279d4dd544";
 			$("body").append(s);
 		}, 5000);
+
+
  });
 
-
-
-$(window).on('beforeunload', function() {
-    $(window).scrollTop(0);
-});
 
 
 
