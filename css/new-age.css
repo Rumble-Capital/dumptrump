@@ -435,3 +435,10 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 img.img-fluid {
   height:100% !important;
 }
+
+.rumble-button {
+  background: white;
+  border: 2px;
+  border-color: black;
+  font-family: permanent marker;
+}
