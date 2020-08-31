@@ -14,18 +14,20 @@
 
  }
 
+
+
  img.img-fluid {
    height:100% !important;
    width: 100%;
  }
 
 header.masthead {
-  background:black;
+  background:white;
   color:black;
 }
 
 header.masthead .header-content h1 {
-  color:white;
+  color:black;
 }
 
 img.download {
@@ -40,24 +42,24 @@ img.download {
 }
 
 .features {
-  background:black !important;
+  background:white !important;
 }
 
 
 section.download h2 {
-  font-family:"permanent marker";
-  color:white !important;
+  font-family:"permanent marker" !important;
+  color:white!important;
 
 
 }
 
 section.features .section-heading h2 {
   font-family:"permanent marker";
-  color:white !important;
+  color:black !important;
 }
 
 #mainNav {
-  background:#0f5eb1 !important;
+  background:#38b6ff !important;
 }
 
 .none {
@@ -70,7 +72,7 @@ section.features .section-heading h2 {
 }
 
 footer {
-  background:#0f5eb1 !important;
+  background:white !important;
 }
 
 .font {
@@ -79,9 +81,9 @@ footer {
 }
 
 #download {
-  background:#0f5eb1 !important;
+  background:#38b6ff !important;
   color:white;
-  font-family:"permanent marker";
+  font-family:"permanent-marker" !important;
 }
 
 @media screen and (max-width: 767px) {
@@ -91,15 +93,15 @@ footer {
 }
 
 section.features h3,p {
-  color:white
+  color:black
 }
 
 section p {
-  color:white;
+  color:black;
 }
 
 p.text-muted {
-  color:white !important;
+  color:black !important;
 }
 
 .btn-push {
@@ -167,14 +169,69 @@ iframe .terms {
 }
 
 .rumble-button {
-  background: white;
-  border: 2px;
-  border-color: black;
-  font-family: permanent marker;
-  padding: 4px;
-  color: black;
-  border-radius: 14px;
-  font-size: 20px;
+  background: #38b6ff;
+      border: 2px;
+      border-color: black;
+      font-family: permanent marker;
+      padding: 18px;
+      color: white;
+      border-radius: 14px;
+      font-size: 30px;
+
 }
 
-.runble-
+.bg-primary {
+  background:#38b6ff;
+}
+
+a {
+  color: black;
+
+}
+
+.line {
+  text-decoration:underline;
+}
+
+@-webkit-keyframes hvr-buzz {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+@keyframes hvr-buzz {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+.hvr-buzz {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-buzz:hover, .hvr-buzz:focus, .hvr-buzz:active {
+  -webkit-animation-name: hvr-buzz;
+  animation-name: hvr-buzz;
+  -webkit-animation-duration: 0.15s;
+  animation-duration: 0.15s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
